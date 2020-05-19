@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sebastián Segura Osorio</title>
+    <!-- BOOTSTRAP 4.4.1 -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!--GOOGLE FONTS-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/2bbc03571f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon-16x16.png"
+      type="image/x-icon"
+    />
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav id="Barra" class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand SebSegOso" href="#">SebSegOso</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Descripcion">Descripción</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Trabajos">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contacto">Contáctame</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero-section -->
+    <header id="Hero-section" class="container-fluid py-5">
+      <div class="row">
+        <div class="hero-text col col-md-6 offset-md-6">
+          <h1 class="SebSegOso">Sebastián Segura Osorio</h1>
+          <h3>Ingeniero en Sonido / Desarrollador Front-End</h3>
+          <a href="#Contacto"
+            ><button type="button" class="btn btn-dark">Contáctame</button></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- Descripción -->
+    <section id="Descripcion" class="container py-5 d-none d-md-block">
+      <div class="row">
+        <h2 class="col-12">Descripción</h2>
+        <p class="col-6 text-left py-3">
+          Puntual, empático y metódico. Me gusta comprender el por qué de los
+          procesos, para comprenderlos al 100% y poder satisfacer de mejor
+          manera los requerimientos laborales.
+        </p>
+        <p class="col-6 text-left py-3">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quis
+          molestiae excepturi, animi esse consequuntur nulla perferendis maiores
+          amet autem tempora libero harum, eum ipsa laboriosam aperiam veniam,
+          inventore eius.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experiencia  -->
+    <section id="Experiencia" class="container-fluid py-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="col-12">Experiencia</h2>
+          <div
+            class="sonidista col-12 col-md-6 py-3"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Ingeniería en Sonido - Duoc UC"
+          >
+            <i class="fas fa-headphones fa-3x"></i>
+            <h4>Sonidista</h4>
+            <h5>2014 - ...</h5>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consequatur voluptatibus impedit praesentium eveniet dicta esse?
+              Libero temporibus est impedit. Incidunt, ea exercitationem. Sint
+              itaque ipsam iure atque fuga nulla blanditiis?
+            </p>
+          </div>
+          <div
+            class="desarrollador col-12 col-md-6 py-3"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Desarrollo Front-End - Desafío Latam"
+          >
+            <i class="fas fa-code fa-3x"></i>
+            <h4>Desarrollador</h4>
+            <h5>2020 - ...</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
+              recusandae. Eum placeat vero aut nemo veritatis quasi ducimus amet
+              nobis distinctio, ipsam eligendi enim officiis facere ipsa iste
+              perspiciatis iure!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trabajos  -->
+    <section id="Trabajos" class="container py-5">
+      <h2>Mis trabajos</h2>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+        data-toggle="tooltip"
+        data-placement="bottom"
+        title="Haz click sobre las imágenes"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a data-toggle="modal" data-target="#Meet-Coffee"
+              ><img
+                class="d-block w-75 w-lg-25 mx-auto"
+                src="assets/img/meet_coffee.png"
+                alt="Meet & Coffee - 2020"
+            /></a>
+          </div>
+          <div class="carousel-item">
+            <a data-toggle="modal" data-target="#Iguana-Page">
+              <img
+                class="d-block w-75 w-lg-25 mx-auto"
+                src="assets/img/iguana_page.png"
+                alt="Iguanas - 2020"
+            /></a>
+          </div>
+          <div class="carousel-item">
+            <a data-toggle="modal" data-target="#Suricata">
+              <img
+                class="d-block w-75 w-lg-25 mx-auto"
+                src="assets/img/suricata.png"
+                alt="Suricata alimentos - 2020"
+            /></a>
+          </div>
+          <div class="carousel-item">
+            <a data-toggle="modal" data-target="#Cuppon">
+              <img
+                class="d-block w-75 w-lg-25 mx-auto"
+                src="assets/img/cuppon.png"
+                alt="Cuppon - 2020"
+            /></a>
+          </div>
+          <div class="carousel-item">
+            <a data-toggle="modal" data-target="#Ricomida">
+              <img
+                class="d-block w-75 w-lg-25 mx-auto"
+                src="assets/img/ricomida.png"
+                alt="Ricomida - 2020"
+            /></a>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- VENTANAS MODALES  -->
+    <section>
+      <!--MODAL N°1 MEET & COFFEE-->
+      <div
+        class="modal fade"
+        id="Meet-Coffee"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Meet & Coffee
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Versión Escritorio</p>
+              <img
+                class="img-fluid my-3"
+                src="assets/img/Capturas-completas/meet-coffee.png"
+                alt="Card image cap"
+              />
+              <p>
+                Meet & Coffee - Desafío Latam 2020
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--MODAL N°2 IGUANA PAGE-->
+      <div
+        class="modal fade"
+        id="Iguana-Page"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Iguanas
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Versión Escritorio</p>
+              <img
+                class="img-fluid my-3"
+                src="assets/img/Capturas-completas/Iguana.png"
+                alt="Card image cap"
+              />
+              <p>
+                Iguana page - Desafío Latam 2020
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--MODAL N°3 SURICATA-->
+      <div
+        class="modal fade"
+        id="Suricata"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Suricata
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Versión Escritorio</p>
+              <img
+                class="img-fluid my-3"
+                src="assets/img/Capturas-completas/Suricata.png"
+                alt="Card image cap"
+              />
+              <p>Versión Mobile</p>
+              <img
+                class="img-fluid my-3 img-mobile"
+                src="assets/img/Capturas-completas/Suricata-mobile.png"
+                alt="Card image cap"
+              />
+              <p>
+                Suricata - Desafío Latam 2020
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--MODAL N°4 CUPPON-->
+      <div
+        class="modal fade"
+        id="Cuppon"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Cuppon
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Versión Escritorio</p>
+              <img
+                class="img-fluid my-3"
+                src="assets/img/Capturas-completas/Cuppon.png"
+                alt="Card image cap"
+              />
+              <p>Versión Mobile</p>
+              <img
+                class="img-fluid my-3 img-mobile"
+                src="assets/img/Capturas-completas/Cuppon-mobile.png"
+                alt="Card image cap"
+              />
+              <p>
+                Cuppon - Desafío Latam 2020
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--MODAL N°5 RICOMIDA -->
+      <div
+        class="modal fade"
+        id="Ricomida"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Ricomida
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Versión Escritorio</p>
+              <img
+                class="img-fluid my-3"
+                src="assets/img/Capturas-completas/Ricomida.png"
+                alt="Card image cap"
+              />
+              <p>Versión Mobile</p>
+              <img
+                class="img-fluid my-3 img-mobile"
+                src="assets/img/Capturas-completas/Ricomida-mobile.png"
+                alt="Card image cap"
+              />
+              <p>
+                Ricomida - Desafío Latam 2020
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contacto  -->
+    <section id="Contacto">
+      <div
+        class="typeform-widget"
+        data-url="https://sseguraosorio.typeform.com/to/yfXhd7"
+        style="width: 100%; height: 500px;"
+      ></div>
+      <script>
+        (function () {
+          var qs,
+            js,
+            q,
+            s,
+            d = document,
+            gi = d.getElementById,
+            ce = d.createElement,
+            gt = d.getElementsByTagName,
+            id = "typef_orm",
+            b = "https://embed.typeform.com/";
+          if (!gi.call(d, id)) {
+            js = ce.call(d, "script");
+            js.id = id;
+            js.src = b + "embed.js";
+            q = gt.call(d, "script")[0];
+            q.parentNode.insertBefore(js, q);
+          }
+        })();
+      </script>
+      <div
+        style="
+          font-family: Sans-Serif;
+          font-size: 12px;
+          color: #999;
+          opacity: 0.5;
+          padding-top: 5px;
+        "
+      >
+        powered by
+        <a
+          href="https://admin.typeform.com/signup?utm_campaign=yfXhd7&utm_source=typeform.com-01E80RR9TJ4Y6S8DDZA4QTA1ZZ-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES"
+          style="color: #999;"
+          target="_blank"
+          >Typeform</a
+        >
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="Footer" class="container-fluid py-5">
+      <div class="container">
+        <p class="SebSegOso">SebSegOso 2020</p>
+        <div class="iconos row py-3">
+          <a
+            href="https://github.com/sebsegoso"
+            target="_blank"
+            class="col-4 text-right"
+            ><i
+              class="fab fa-github fa-3x"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Visita mi perfil en GitHub"
+            ></i
+          ></a>
+          <a
+            href="https://instagram.com/sebsegoso"
+            target="_blank"
+            class="col-4"
+            ><i
+              class="fab fa-instagram fa-3x"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Sígueme en Instagram"
+            ></i
+          ></a>
+          <a
+            href="mailto:sseguraosorio@gmail.com"
+            target="_blank"
+            class="col-4 text-left"
+            ><i
+              class="far fa-envelope fa-3x"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Escríbeme"
+            ></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Jquery 3.4.1 slim -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Js Popper 1.16.0 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Js -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Mi script -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

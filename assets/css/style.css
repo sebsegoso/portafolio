@@ -1,0 +1,134 @@
+/* font-family: 'Jost', sans-serif;
+font-family: 'Pacifico', cursive; */
+
+/* https://coolors.co/002642-840032-e59500-e5dada-02040f MIS COLORES */
+
+:root {
+  --color-navbar-footer: #002642;
+  --color-titulos: #e59500;
+  --color-fondo: #840032;
+  --color-texto: #e5dada;
+  --color-fondo-oscuro: #02040f;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  text-align: center;
+}
+
+a {
+  color: var(--color-texto);
+}
+
+a:hover {
+  color: var(--color-titulos);
+}
+
+.SebSegOso {
+  font-family: "Pacifico", cursive;
+}
+
+h1 {
+  color: var(--color-titulos);
+  font-weight: bold;
+  font-size: 60px;
+}
+
+h2 {
+  color: var(--color-titulos);
+  font-weight: bold;
+  font-size: 32px;
+}
+
+h3 {
+  color: var(--color-titulos);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+h4 {
+  color: var(--color-titulos);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h5 {
+  color: var(--color-texto);
+  font-weight: 100;
+}
+
+/*h6{
+
+} */
+
+#Barra {
+  background-color: var(--color-navbar-footer);
+}
+
+#Hero-section {
+  height: 600px;
+  background-image: url(../img/IMG-20180724-WA00001.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#Hero-section .hero-text {
+  padding-top: 80px;
+  text-shadow: -2px 2px 0px var(--color-fondo-oscuro),
+    0px 0px 6px var(--color-navbar-footer);
+}
+
+#Experiencia {
+  background-color: var(--color-fondo-oscuro);
+}
+
+#Experiencia i {
+  color: var(--color-titulos);
+}
+
+#Contacto {
+  background-color: var(--color-fondo-oscuro);
+}
+
+#Footer {
+  background-color: var(--color-navbar-footer);
+  color: var(--color-texto);
+}
+
+.modal-content {
+  background-color: var(--color-fondo-oscuro);
+}
+
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Fondo */
+::-webkit-scrollbar-track {
+  background: var(--color-navbar-footer);
+}
+
+/* Barra */
+::-webkit-scrollbar-thumb {
+  background: var(--color-titulos);
+  border-radius: 5px;
+}
+
+/* barra hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-texto);
+}
