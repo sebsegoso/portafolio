@@ -85,7 +85,6 @@ h5 {
     0px 0px 6px var(--color-navbar-footer);
 }
 
-
 #Experiencia {
   background-color: var(--color-fondo-oscuro);
   list-style-position: inside;
@@ -93,6 +92,16 @@ h5 {
 
 #Experiencia i {
   color: var(--color-titulos);
+}
+
+#carouselExampleIndicators{
+  padding-bottom: 45px;
+}
+
+#Trabajos .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
 
 #Contacto {
