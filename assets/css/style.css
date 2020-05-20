@@ -66,10 +66,6 @@ h5 {
   font-weight: 100;
 }
 
-/*h6{
-
-} */
-
 #Barra {
   background-color: var(--color-navbar-footer);
 }
@@ -106,14 +102,13 @@ h5 {
   color: var(--color-texto);
 }
 
-#Footer p{
-  font-size: 50px;
+#Footer p {
+  font-size: 40px;
 }
 
 .modal-content {
   background-color: var(--color-fondo-oscuro);
 }
-
 
 /* scrollbar */
 /* width */
@@ -135,4 +130,41 @@ h5 {
 /* barra hover */
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-texto);
+}
+
+.smart-scroll {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  #Hero-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% -257px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  #Hero-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+/* // Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
 }

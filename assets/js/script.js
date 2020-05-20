@@ -22,9 +22,27 @@ $(document).ready(function () {
     } // End if
   });
 
+  // Tootltips & Popovers
   $(function () {
     $('[data-toggle="tooltip"]').tooltip();
   })
+
+  $('body').css('padding-top', $('.navbar').outerHeight() + 'px')
+
+// detector de scroll
+if ($('.smart-scroll').length > 0) {
+    var last_scroll_top = 0;
+    $(window).on('scroll', function() {
+        scroll_top = $(this).scrollTop();
+        if(scroll_top < last_scroll_top) {
+            $('.smart-scroll').removeClass('scrolled-down').addClass('scrolled-up');
+        }
+        else {
+            $('.smart-scroll').removeClass('scrolled-up').addClass('scrolled-down');
+        }
+        last_scroll_top = scroll_top;
+    });
+}
 });
 
 
