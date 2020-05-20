@@ -1,10 +1,9 @@
 $(document).ready(function () {
-  // Add smooth scrolling to all links
+  // agrega smooth scrolling a todos los enlaces "a"
   $("a").on('click', function (event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
-      // Prevent default anchor click behavior
       event.preventDefault();
 
       // Store hash
@@ -19,7 +18,7 @@ $(document).ready(function () {
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
-    } // End if
+    }
   });
 
   // Tootltips & Popovers
@@ -27,6 +26,7 @@ $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
   })
 
+  // cambia padding de la barra al desaparecer
   $('body').css('padding-top', $('.navbar').outerHeight() + 'px')
 
 // detector de scroll

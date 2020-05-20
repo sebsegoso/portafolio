@@ -85,8 +85,10 @@ h5 {
     0px 0px 6px var(--color-navbar-footer);
 }
 
+
 #Experiencia {
   background-color: var(--color-fondo-oscuro);
+  list-style-position: inside;
 }
 
 #Experiencia i {
@@ -108,6 +110,11 @@ h5 {
 
 .modal-content {
   background-color: var(--color-fondo-oscuro);
+}
+
+.sonidista:hover,
+.desarrollador:hover{
+  background-color: var(--color-fondo);
 }
 
 /* scrollbar */
