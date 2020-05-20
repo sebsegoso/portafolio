@@ -94,7 +94,7 @@ h5 {
   color: var(--color-titulos);
 }
 
-#carouselExampleIndicators{
+#Carrusel-trabajos{
   padding-bottom: 45px;
 }
 
@@ -178,9 +178,14 @@ h5 {
   #Hero-section {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% -290px;
   }
 }
 /* // Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+  #Hero-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
