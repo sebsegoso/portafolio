@@ -106,6 +106,10 @@ h5 {
   color: var(--color-texto);
 }
 
+#Footer p{
+  font-size: 50px;
+}
+
 .modal-content {
   background-color: var(--color-fondo-oscuro);
 }
